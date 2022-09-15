@@ -10,7 +10,7 @@ void print_times_table(int n)
 
 	if (n > 15 || n < 0)
 		return;
-	while (x <=n )
+	while (x <= n)
 	{
 		for (y = 0; y <= n; y++)
 		{
@@ -27,7 +27,7 @@ void print_times_table(int n)
 				_putchar(z / 10 + '0');
 				_putchar(z % 10 + '0');
 			}
-			else if (y ! = 0)
+			else if (y != 0)
 			{
 				_putchar('');
 				_putchar('');
@@ -35,7 +35,7 @@ void print_times_table(int n)
 			}
 			else
 				_putchar(z + '0');
-			if (y ! = n)
+			if (y != n)
 			{
 				_putchar('');
 				_putchar('');
