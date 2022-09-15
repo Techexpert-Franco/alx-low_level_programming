@@ -4,7 +4,7 @@
  * description:if 'n' is greater than 15 or less than 0, print nothing.
  * @n: int type number
  */
-void void print_times_table(int n)
+void print times_table(int n)
 {
 	int x = 0, y, z;
 
@@ -23,22 +23,22 @@ void void print_times_table(int n)
 			}
 			else if (z > 9)
 			{
-				_putchar('');
+				_putchar(' ');
 				_putchar(z / 10 + '0');
 				_putchar(z % 10 + '0');
 			}
 			else if (y != 0)
 			{
-				_putchar('');
-				_putchar('');
+				_putchar(' ');
+				_putchar(' ');
 				_putchar(z + '0');
 			}
 			else
 				_putchar(z + '0');
 			if (y != n)
 			{
-				_putchar('');
-				_putchar('');
+				_putchar(' ');
+				_putchar(' ');
 			}
 		}
 		_putchar('\n');
