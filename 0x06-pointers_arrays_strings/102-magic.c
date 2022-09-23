@@ -1,4 +1,7 @@
 #include <stdio.h>
+/**
+ * this is a program that performs magic
+ */
 int main(void)
 {
 	  int n;
