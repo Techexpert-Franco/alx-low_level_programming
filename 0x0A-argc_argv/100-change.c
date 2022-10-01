@@ -27,7 +27,7 @@ int main(int argc, char **argv)
 	{
 	for (i = 0; i < 5; i++)
 		{
-	if (value[i] <= ammount)
+		if (value[i] <= ammount)
 			{
 			coins = coins + (ammount / value[i]);
 			ammount = ammount - (ammount / value[i]) * value[i];
